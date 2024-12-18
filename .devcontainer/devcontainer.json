@@ -1,0 +1,14 @@
+{
+    "name": "Chat with Llama",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+    },
+    "postCreateCommand": "pip install --no-cache-dir fastapi uvicorn[standard] torch torchvision torchaudio transformers Pillow",
+    "customizations": {
+      "vscode": {
+        "extensions": ["ms-python.python"]
+      }
+    }
+  }
+  
