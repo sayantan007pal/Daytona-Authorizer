@@ -4,7 +4,7 @@
     "features": {
       "ghcr.io/devcontainers/features/docker-in-docker:1": {}
     },
-    "postCreateCommand": "pip install --no-cache-dir fastapi uvicorn[standard] torch torchvision torchaudio transformers Pillow",
+    "postCreateCommand": "pip install --no-cache-dir fastapi uvicorn[standard] python-multipart torch torchvision torchaudio transformers Pillow",
     "customizations": {
       "vscode": {
         "extensions": ["ms-python.python"]
